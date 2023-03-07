@@ -15,4 +15,9 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("EndScene");
     }
 
+    public void StartScene()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
 }
